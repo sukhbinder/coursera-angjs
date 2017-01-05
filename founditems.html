@@ -1,0 +1,9 @@
+<div class="row">
+<br><br><br><br>
+<ol>
+<li ng-repeat ="item in list.items">{{item.name}} ( ${{item.price_large}} )
+
+<button  class="btn btn-default" ng-click="list.onRemove({index:$index});">Don't want this one!</button></li>
+
+</ol>
+</div>
